@@ -1,0 +1,45 @@
+{
+  "name": "carbon-tax",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "art": "^0.10.1",
+    "parse": "^1.9.2",
+    "react": "~15.4.0-rc.4",
+    "react-addons-shallow-compare": "^15.4.1",
+    "react-native": "0.38.1",
+    "react-native-loading-spinner-overlay": "^0.4.1",
+    "react-native-svg": "^4.4.1",
+    "react-native-tab-view": "0.0.40",
+    "react-native-vector-icons": "^3.0.0",
+    "react-redux": "^4.4.6",
+    "react-timer-mixin": "^0.13.3",
+    "redux": "^3.6.0",
+    "redux-logger": "^2.7.4",
+    "redux-persist": "^4.0.0-beta1",
+    "redux-thunk": "^2.1.0",
+    "reselect": "^2.5.4"
+  },
+  "devDependencies": {
+    "babel-jest": "17.0.2",
+    "babel-preset-react-native": "1.9.0",
+    "jest": "17.0.3",
+    "jest-react-native": "17.1.0",
+    "react-test-renderer": "~15.4.0-rc.4"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "description": "Carbon Tax App",
+  "main": "index.android.js",
+  "keywords": [
+    "carbon",
+    "tax"
+  ],
+  "author": "Davis Nyabuti",
+  "license": "MIT"
+}
